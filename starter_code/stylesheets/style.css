@@ -212,7 +212,6 @@ nav {
 
 .sign-up-buttons button {
 	display: inline-block;
-	width: 90vw;
 	height: 85px;
 	margin-bottom: 20px;
 	border-radius: 7px;
@@ -262,7 +261,10 @@ nav {
 }
 
 .slack-preview img {
-	width: 1050px;
+	height: auto;
+	width: 150vw;
+	max-width: 1050px;
+
 }
 
 /* MAIN */
@@ -425,6 +427,7 @@ main {
 .percentage-of {
 	font-size: 1.6rem;
 	font-weight: bolder;
+	line-height: 35px;
 }
 
 .details-asterisk {
@@ -494,6 +497,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	column-gap: 80px;
+	flex-wrap: wrap;
 
 }
 
